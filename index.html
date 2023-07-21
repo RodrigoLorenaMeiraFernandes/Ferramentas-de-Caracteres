@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferramentas para Caracteres</title>
+    <link rel="stylesheet" href="styles/style.css" class="css">
+    <link rel="icon" href="assets/icone.png" class="favicon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Blinker&family=Montserrat+Alternates:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>  
+        <h1>Ferramentas para Caracteres</h1>
+    </header>  
+
+   <div class="Desafio1"> 
+        <p class="Apresentação">Reverta a ordem das palavras nas frases</p>
+        
+        <div class="CheckBox">
+            </p><input type="text" name="Ds1" id="exercicio1" placeholder="Digite aqui" min="0"></p>
+            <input type="button" value="Reverter" class="Botão" onclick="inverteMensagem()">
+            <p class="Resultado1" id="resposta1">Resultado...</p>
+        </div>   
+    </div>
+
+    <div class="Desafio2"> 
+        <p class="Apresentação">Remova caracteres duplicados</p>
+        
+        <div class="CheckBox">
+            </p><input type="text" name="txtano" id="exercicio2" placeholder="Digite aqui" min="0"></p>
+            <input type="button" value="Remover" class="Botão" onclick="exibirMensagemSemDuplicatas()">
+            <p class="Resultado2" id="resposta2">Resultado...</p>
+        </div>   
+    </div>
+
+    <div class="Desafio3"> 
+        <p class="Apresentação">Encontre a substring palindroma mais longa do texto</p>
+        
+        <div class="CheckBox">
+            </p><input type="text" name="txtano" id="exercicio3" placeholder="Digite aqui" min="0"></p>
+            <input type="button" value="Encontrar" class="Botão" onclick="encontrarMaiorSubstringPalindroma()">
+            <p class="Resultado3" id="resposta3">Resultado...</p>
+        </div>   
+    </div>
+
+    <div class="Desafio4"> 
+        <p class="Apresentação">Converta em maiúscula a primeira letra</p>
+        
+        <div class="CheckBox">
+            </p><input type="text" name="txtano" id="exercicio4" placeholder="Digite aqui" min="0"></p>
+            <input type="button" value="Converter" class="Botão" onclick="convertMasc()">
+            <p class="Resultado4" id="resposta4">Resultado...</p>
+        </div>   
+    </div>
+
+    <div class="Desafio5"> 
+        <p class="Apresentação">Verifique se a string é um anagama de um palindromo</p>
+        
+        <div class="CheckBox">
+            </p><input type="text" name="txtano" id="exercicio5" placeholder="Digite aqui" min="0"></p>
+            <input type="button" value="Verificar" class="Botão" onclick="anagramaPalindromo()">
+            <p class="Resultado5" id="resposta5">Resultado...</p>
+        </div>   
+    </div>
+    
+
+    <aside>
+        <a href="https://www.linkedin.com/in/rodrigo-lorena-meira-fernandes/">
+            <img src="assets/linkedin.png"  class="linkedin" width="60px">
+        </a>
+        <a href="https://github.com/RodrigoLorenaMeiraFernandes">
+            <img src="assets/github.png"  class="github" width="60px">
+        </a>
+    </aside>
+
+    <footer>
+        Rodrigo Meira | 2023
+    </footer>
+    
+    <script src="scripts/script.js"></script>
+
+</body>
+</html>

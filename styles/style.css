@@ -1,0 +1,191 @@
+:root {
+  --yellow-pwc: rgb(243, 190, 38);
+  --orange-pwc: rgba(216, 86, 4); 
+  --beer: rgb(232, 141, 20);
+  --black: rgb(0,0,0);
+  --background: rgba(210, 210, 210, 0.685);
+  --footer: rgba(216, 85, 4, 0.625);    
+}
+
+header {
+    background-color: var(--background);
+    border-radius: 5px;
+    border-style: solid;
+    text-align: center;
+    background-image: url(..//assets/icone.png);
+    background-size: 80px;
+    background-position: 5px;
+    background-repeat: no-repeat;
+    font-family: Helvetica, sans-serif ;
+    font-weight: 600;
+    font-size: 1em;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../assets/Wallpaper.jpeg);
+    background-position-x: 3500px;
+    background-position-y: 2000px;
+    font-family: 'Blinker', sans-serif;
+    font-size: 1.1em;
+  }
+  
+footer {
+    position: fixed;
+    bottom: 0;
+    border-color: var(--black);
+    border-style: solid;
+    width: 100%;
+    height: 20px; 
+    background-color: var(--footer);
+    color: var(--black);
+    text-align: center;
+  }
+  
+  #exercicio1, #exercicio2, #exercicio3, #exercicio4, #exercicio5 {
+    width: 20%;
+    text-align: center;
+}
+
+  .Desafio1 {
+    background-color: var(--orange-pwc);
+    border-color: var(--black);
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-top: 1rem;
+    width: 40%;
+    height: 10%;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .Resultado1 {
+    color: var(--black);
+    border-color: var(--black);
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+  }
+  
+  .Desafio2 {
+    background-color: var(--beer);
+    border-color: var(--black);
+    border-radius: 20px;
+    width: 40%;
+    display: inline-block;
+    margin-top: 1rem;
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .Resultado2 {
+    color: var(--black);
+    border-color: var(--black);
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-size: 1em;
+  }
+  
+  .Desafio3 {
+    background-color: var(--beer);
+    border-color: var(--black);
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-top: 1rem;
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    font-size: 1em;
+  }
+  
+  .Resultado3 {
+    color: var(--black);
+    border-color: var(--black);
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-size: 1em;
+
+  }
+  .Desafio4 {
+    background-color: var(--orange-pwc);
+    border-color: var(--black);
+    border-radius: 20px;
+    margin-top: 1rem;
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .Resultado4 {
+    color: var(--black);
+    border-color: var(--black);
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-size: 1em; 
+  }
+
+  .Desafio5 {
+    background-color: var(--yellow-pwc);
+    border-color: var(--black);
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-top: 1rem;
+    width: 80%;
+    display: inline-block;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Blinker', sans-serif;
+  }
+
+  .Resultado5 {
+    color: var(--black);
+    border-color: var(--black);
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-size: 1em;
+
+  }
+
+
+.CheckBox {
+    background-color: rgba(248, 248, 248, 0.755);
+    border-color: var(--black);
+    border-radius: 20px;
+    border-style: solid;
+    position: center;
+    height: 10%;
+    margin-top: 20px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: bold;
+  }
+  
+  .Resultado1, .Resultado2, .Resultado3, .Resultado4, .Resultado5 {
+
+    height: 1em;
+  }
+
+  
+  @media (max-width: 1206px) {
+    header {
+            background-size: 40px;
+            background-position-y: 0px;
+            
+}  
+.linkedin, .github {
+  width: 30px;
+  top: 10px;
+  bottom: 30px;
+  margin-bottom: 50px;}
+}
